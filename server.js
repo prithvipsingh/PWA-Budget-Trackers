@@ -24,5 +24,5 @@ mongoose.connect("mongodb://ppsdeora:abcd1234@ds119748.mlab.com:19748/heroku_xnm
 app.use(require("./routes/api.js"));
 
 app.listen(PORT, () => {
-  console.log(`App running on port` ,app.get('port'));
+  console.log(`App running on port ${PORT}!`);
 });
